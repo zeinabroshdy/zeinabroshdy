@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body bgcolor="#848484">
+<style> 
+div {
+    background-color: lightgrey;
+    border: 30px solid transparent;
+    border-image: url('images/index.jpeg');
+    border-image-slice: 30;
+    border-image-outset: 15px;
+}
+</style>
+<div>
+
+<h1>  ******Welcome to our website Memory Game******<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/9.png" alt="Smiley" width="64" height="64" align="right" ><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/9.png" alt="Smiley" width="64" height="64" align="left" ><h1>
+
+</div>
+<br><br><br>
+
+
+
+<script>
+function bigImg(x) {
+    x.style.height = "96px";
+    x.style.width = "96px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+
+
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+
+
+<div id="memory_board1"> </div>
+<script> newBoard1(); </script>
+<br><br><br>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div1><img src="images/222.jpeg"></div1>
+<div2><input type="button" value = "if you want to back to home"  color="#00f"onclick="location.replace('index.html')"></div2>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Memory Game</title>
+
+
+<style type="text/css">
+.main {
+	width: 1350px;
+	position: relative;
+	float: left;
+	height: auto;
+}
+.twitter {
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-left: 20px;
+}
+.above {
+	height: 30px;
+	width: 1350px;
+	border-bottom-width: thin;
+	border-bottom-style: double;
+	border-bottom-color: #C00;
+}
+
+.login {
+	float: left;
+	width: 70px;
+	height: 30px;
+	padding-left: 0px;
+	margin-left: 100px;
+	color: #666;
+	text-align: center;
+}
+.memory {
+	float: left;
+	height: 55px;
+	width: 900px;
+	margin-right: 200px;
+	margin-left: 200px;
+	border-bottom-width: thin;
+	border-bottom-color: #666;
+	border-bottom-style: solid;
+	text-align: center;
+	font-size: 31px;
+	color: #900;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.icons {
+	float: left;
+	height: 75px;
+	width: 900px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.advertisement1 {
+	float: left;
+	height: 37px;
+	width: 200px;
+	font-size: 24px;
+	color: #FFF;
+	background-color: #903;
+	text-align: center;
+	padding-top: 13px;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+.empty {
+	float: left;
+	width: 900px;
+	margin-right: 200px;
+	margin-left: 200px;
+	height: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+a:link {
+	color: #D0D1D5;
+	text-decoration: none;
+}
+/* visited link */
+a:visited {
+	color: #666666;
+}
+.advertisement {
+	float: left;
+	height: 500px;
+	width: 200px;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+/* mouse over link */
+a:hover {
+	color: #990000;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.home {
+	text-align: center;
+	float: left;
+	height: 50px;
+	width: 215px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #D6D7D9;
+	border-right-color: #D6D7D9;
+	border-bottom-color: #D6D7D9;
+	border-left-color: #D6D7D9;
+	border-radius: 500px;
+	font-size: 24px;
+	text-transform: none;
+	color: #666666;
+	padding-top: 20px;
+}
+.home:hover {
+	background-color: #999;
+	color: #980150;
+}
+.user {
+	height: 30px;
+	width: 70px;
+	float: left;
+	color: #666;
+	text-align: center;
+}
+.face {
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-left: 700px;
+}
+
+.play {
+	width: 650px;
+	margin-right: 200px;
+	margin-left: 50px;
+	float: left;
+	height: 500px;
+	margin-top: 13px;
+}
+.play1 {
+	float: left;
+	height: 300px;
+	width: 650px;
+}
+.footer {
+	float: left;
+	height: 30px;
+	width: 1350px;
+	background-color: #666;
+	color: #FFF;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 20px;
+}
+.clock1 {
+	float: left;
+	height: 25px;
+	width: 250px;
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+.footerleft {
+	background-color: #666;
+	float: left;
+	height: 30px;
+	width: 1050px;
+}
+.play2 {
+	float: left;
+	height: 100px;
+	width: 420px;
+
+	padding-left: 230px;
+}
+</style>
+
+
+
+</head>
+
+<body>
+<div class="main" id="main">
+  <div class="above" id="above">
+   <a href="log in.html"> <div class="login" id="login">Log In</div></a>
+   <a href="new user.html"> <div class="user" id="user">New User</div></a>
+    <div class="face" id="face"><a href="https://facebook.com/"><img src="images/f1.png" alt="facebook image" id="img" onMouseOver="document.getElementById('img').src='images/f2.png';" onMouseOut="document.getElementById('img').src='images/f1.png';" width="30" height="30" id="Image1"></a></div>
+    <div class="twitter
+    " id="twitter"><a href="https://twitter.com/"><img src="images/t1.png" alt="twitter image"  id="img2" onMouseOver="document.getElementById('img2').src='images/t2.png';" onMouseOut="document.getElementById('img2').src='images/t1.png';" width="30" height="30"></a></div>
+  </div>
+  <div class="memory" id="memory">Memory Game</div>
+  <div class="icons" id="icons">  <a href="index.html"><div class="home" id="home">Home</div></a>
+          <a href="about us.html">
+          <div class="home" id="about">About Us</div></a>
+          <a href="about game.html">
+          <div class="home" id="aboutgame">About Game</div></a>
+         
+           <a href="contact us.html">
+           <div class="home" id="contact">Contact Us</div></a></div>
+  <div class="empty" id="empty"></div>
+  <div class="advertisement" id="advertisement">
+    <div class="advertisement1" id="advertisement1">Advertisement
+    </div> <marquee width=199 height=400  direction="up" >
+  <img src="images/1.jpg" width="199" height="70" /><br/><br/>
+<img src="images/2.jpg" width="199" height="70" alt="Advertisement" /><br/><br/>
+<img src="images/3.jpg" width="199" height="70" alt="Advertisement" /><br/><br/>
+<img src="images/4.jpg" width="199" height="70" alt="Advertisement" /><br/><br/>
+</marquee>
+
+  </div>
+  <div class="play" id="play">
+   <p>
+    <b>
+    <font color="blue">
+    <ul> 
+	
+    
+        <li> <font color="red">Game objective :</font> </li><br/>
+
+	Memory game is a game that stimulates the mind to best perceive and memorize the information .<br/>
+      <li><font color="red">Game  description:</font></li><br/>
+	The game is a board that contains a number of squares ,and behind  every square there is a letter hidden .
+	first click any square to begin the game,and try to quickly memorize the letter . And then try to click  every square to match two identical letters. To win the game you should match all the letters .There are two levels in the game. Every level of the two is an endless number of levels that range in difficulty.
+
+    </ul>
+    </font>
+    </b>
+    </p>
+
+
+  </div>
+  <div class="footer" id="footer">
+    <div class="footerleft" id="footerleft">    copyright&copy;2015 ITI
+</div>
+<div class="clock1" id="clock1">  <input type="text" id="clock" size="15" />
+
+  <script>
+
+function clock()
+  {
+  var clocknow=new Date();
+  document.getElementById("clock").value=clocknow.toLocaleTimeString();
+
+  }
+var clocknow=setInterval("clock()",1000)
+
+    </script>
+</div>
+  </div>
+</div>
+</body>
+</html>

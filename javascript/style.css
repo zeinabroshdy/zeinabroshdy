@@ -1,0 +1,79 @@
+div#memory_board{
+    background: #f0f;
+    border: #999 1px solid;
+    width: 400px;
+    height: 540px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+div#memory_board > div{
+    background: url(images/111.jpeg) no-repeat;
+    border: #BDBDBD 1px solid;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 70px;
+    cursor: pointer;
+    text-align:center;
+}
+
+div#memory_board1{
+    background: #f0f;
+    border: #999 1px solid;
+    width: 800px;
+    height: 540px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+div#memory_board1 > div{
+    background: url(images/111.jpeg) no-repeat;
+    border: #00f 1px solid;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align:center;
+}
+div1 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    position: ;
+    padding: 3px;
+    margin: 1px;
+    -webkit-animation: myfirst 5s infinite; 
+    -webkit-animation-direction: alternate; 
+    animation: myfirst 5s infinite;
+    animation-direction: right;
+}
+
+
+@-webkit-keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 50px; top: 100px;}
+    50%  {background: blue; left: 50px; top: 50px;}
+    75%  {background: green; left: 0px; top: 50px;}
+    100% {background: red; left: 100px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 50px; top: 0px;}
+    50%  {background: blue; left: 50px; top: 50px;}
+    75%  {background: green; left: 0px; top: 50px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+div2 {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #22ccff;
+    width: 300px;
+    border-radius: 25px;
+}
